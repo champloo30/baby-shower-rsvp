@@ -2,26 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.bg-butterfly {
+  background-image: url('https://img.freepik.com/free-vector/feminine-butterfly-background-pink-border-vector-animal-illustration_53876-140212.jpg?w=900&t=st=1688409200~exp=1688409800~hmac=b50bf28c7cc0dfb7c147bbe816f963a5b20c9788d6e5bb61a053a2b4933d82be');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.bg-container {
+  background-color: rgba(249, 247, 242, 0.5);
 }
