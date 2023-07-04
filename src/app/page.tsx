@@ -27,15 +27,15 @@ export default function Home() {
       {showRegistry && <Registry setShowRSVP={setShowRSVP} setShowRegistry={setShowRegistry} />}
       <div className="h-full w-full flex flex-col justify-center items-center gap-8 text-center bg-container">
         <div className="flex flex-col justify-center items-center gap-4">
-          <p className="text-purple-400 text-2xl">A little</p>
-          <p className="text-pink-300 text-6xl font-greatVibes">Butterfly</p>
-          <p className="text-purple-400 text-2xl -mt-2">is on the way!</p>
+          <p className="text-purple-400 text-2xl md:text-3xl">A little</p>
+          <p className="text-pink-300 text-6xl md:text-8xl font-greatVibes">Butterfly</p>
+          <p className="text-purple-400 text-2xl md:text-3xl -mt-2">is on the way!</p>
         </div>
-        <p className="text-black text-xl">Join us for a baby shower in honor of:</p>
-        <h1 className="text-pink-300 text-6xl font-greatVibes">Kensley-Lincoln Alisa Dunn</h1>
-        <p className="text-purple-400 text-lg">When:</p>
-        <p className="text-black text-lg">Where:</p>
-        <div className="flex gap-8">
+        <p className="text-black text-xl md:text-2xl">Join us for a baby shower in honor of:</p>
+        <h1 className="text-pink-300 text-6xl md:text-8xl font-greatVibes">Kensley-Lincoln Alisa Dunn</h1>
+        <p className="text-purple-400 text-lg md:text-2xl">When:</p>
+        <p className="text-black text-lg md:text-2xl">Where:</p>
+        <div className="flex justify-center items-center gap-8">
           <RSVPButton toggleRSVP={toggleRSVP} />
           <RegistryButton toggleRegistry={toggleRegistry} />
         </div>

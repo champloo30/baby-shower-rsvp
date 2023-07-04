@@ -9,6 +9,8 @@ export default function CloseButton({setShowRegistry, setShowRSVP}: {setShowRegi
   }
   
   return (
-    <div className="border-2 border-neutral-50 py-2 px-4 text-neutral-50 text-lg transition linear duration-300 cursor-pointer" onClick={handleClose}>Close</div>
+    <div className="cursor-pointer" onClick={handleClose}>
+      <svg className='fill-purple-400' xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 -960 960 960" width="48"><path d="m249-207-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg>
+    </div>
   )
 }
