@@ -5,11 +5,11 @@ export default function Registry({setShowRSVP, setShowRegistry}: {setShowRSVP: a
   return (
     <div className='h-full w-full absolute flex flex-col justify-center items-center gap-4 bg-container'>
       <CloseButton setShowRSVP={setShowRSVP} setShowRegistry={setShowRegistry} />
-      <div className="h-[45.5rem] md:h-[36rem] w-96 md:w-[46rem] bg-pink-300 container">
+      <div className="h-[32rem] md:h-[36rem] w-96 md:w-[46rem] bg-pink-300 container">
         <div className="h-full p-8 flex flex-col justify-evenly items-center">
           <div className='flex flex-col items-center gap-4'>
-            <h1 className='text-5xl text-center'>Here are the links to our registries</h1>
-            <p className='text-xl'>We appreciate any and every contribution. Thank you!</p>
+            <h1 className='text-4xl md:text-5xl text-center'>Here are the links to our registries</h1>
+            <p className='text-xl text-center'>We appreciate any and every contribution. Thank you!</p>
           </div>
           <div className='w-full flex justify-evenly'>
             <a className='flex flex-col items-center' href='https://www.target.com/gift-registry/gift/kensley-lincoln' target="_blank" rel="noopener noreferrer">
